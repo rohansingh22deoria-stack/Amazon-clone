@@ -1,0 +1,299 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+.navbar{
+    background-color:#0f1111;
+    height:60px;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+
+
+/*box1*/
+
+
+
+.nav_logo{
+    height:50px;
+    width:100px;
+}
+
+.logo{
+    background-image:url("amazon-logo_1.jpg");
+    height:50px;
+    width:100px;
+    background-size:cover;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.loc{
+    flex-direction:column;
+};
+
+
+/*box2*/
+
+
+
+.india{
+     color:#ffffff;
+}
+   
+.deliver{
+    color:#cccccc;
+    font: size 0.8rem;
+    margin-left:5px;
+}
+.nav_loc_icon{
+    display:flex;
+}
+
+
+
+
+/*box3*/
+
+
+
+
+.nav_search{
+    display:flex;
+    width:620px;
+    height:40px;
+    border-radius:10px;
+    border:none;
+
+    
+}
+.search_icon{
+    WIDTH:45PX;
+    background-color:rgb(228, 133, 65);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 1.3REM;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    
+}
+.search{
+    width:100%;
+   
+    font-size:1rem;
+    border:none;
+
+  
+    
+
+}
+.search:hover{
+    border:2px solid rgb(228,133,65);
+}
+.select{ 
+    background-color:#f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+
+   
+    border:none;
+
+}
+
+
+
+
+/*box5*/
+
+
+.english{
+    color:white;
+    font-size:1.2rem;
+    background-color:black;
+    border:none;
+}
+
+
+/*box6*/
+
+
+span{
+    font-size:.7rem;
+
+
+}
+.account{
+    font-size:1.0rem;
+    color:white;
+    background-color: black;
+    border:none;
+}
+
+
+/*box7*/
+
+
+.cart i {
+    font-size:30px;
+}
+
+
+
+/*****NEXT******/
+
+
+.next{
+    width:100%;
+    background-color:#222f3d;
+    height:40px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.option p{
+    display:inline;
+    margin-right:19px;
+ 
+}
+.option{
+       width:70%
+}
+.all{
+    display:inline;
+}
+.electronics{
+    font-size:17px;
+    font-width:700;
+
+}
+
+
+
+
+/******bOdy******/
+/*********image******/
+
+
+.main_image{
+    display:flex;
+        background-color:#e2e7e6;
+
+}
+.one{
+    margin:10px;
+    height:430px;
+    width:270px;
+    background-image:url("image1.jpg");
+    background-size:cover;
+    border-radius:15px;
+
+}
+.two{
+    margin:10px;
+    height:430px;
+    width:270px;
+    background-image:url("2nd.jpg");
+    background-size:cover;
+    border-radius:15px;
+
+}
+.three{
+    margin:10px;
+    height:430px;
+    width:270px;
+    background-image:url("3rd.jpg");
+    background-size:cover;
+    border-radius:15px;
+
+}
+.four{
+    margin:10px;
+    height:430px;
+    width:270px;
+    background-image:url("4th.jpg");
+    background-size:cover;
+    border-radius:15px;
+
+}
+.five{
+    margin:10px;
+    height:430px;
+    width:270px;
+    background-image:url("5th.jpg");
+    background-size:cover;
+    border-radius:15px;
+
+}
+.six{
+    margin:10px;
+    height:430px;
+    width:270px;
+    background-image:url("6th.jpg");
+    background-size:cover;
+    border-radius:15px;
+
+}
+.main_box{
+    display:flex;
+        background-color:#e2e7e6;
+
+}
+.box{
+
+    width:23%;
+    height:400px;
+    margin:15px;
+    padding:15px;
+}
+.box_img1{
+
+    background-image:url("merge1.jpg");
+    height:300px;
+    width:300px;
+    background-size:cover;
+    border-radius:5px;
+    
+}
+.box_img2{
+
+    background-image:url("merge2.jpg");
+    height:300px;
+    width:300px;
+    background-size:cover;
+    border-radius:5px;
+    
+}.box_img3{
+
+    background-image:url("merge3.jpg");
+    height:300px;
+    width:300px;
+    background-size:cover;
+    border-radius:5px;
+    
+}.box_img4{
+
+    background-image:url("merge4.jpg");
+    height:300px;
+    width:300px;
+    background-size:cover;
+    border-radius:5px;
+    
+}
+/****footer****/
+.small{
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    justify-content:center;
+}
